@@ -93,12 +93,13 @@ var kCSS_PREFIXED_VALUE = [
 ];
 
 var kCSS_VENDOR_PREFIXES = 
-{"lastUpdate":1374677405,"properties":[
+{"lastUpdate":1392220206,"properties":[
 {"gecko":"","webkit":"","presto":"","trident":"-ms-accelerator","status":"P"},
 {"gecko":"","webkit":"","presto":"-wap-accesskey","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-align-content","presto":"","trident":"","status":""},
+{"gecko":"align-content","webkit":"-webkit-align-content","presto":"","trident":"","status":""},
 {"gecko":"align-items","webkit":"-webkit-align-items","presto":"","trident":"","status":""},
 {"gecko":"align-self","webkit":"-webkit-align-self","presto":"","trident":"","status":""},
+{"gecko":"","webkit":"-webkit-alt","presto":"","trident":"","status":""},
 {"gecko":"animation","webkit":"-webkit-animation","presto":"","trident":"animation","status":"WD"},
 {"gecko":"animation-delay","webkit":"-webkit-animation-delay","presto":"","trident":"animation-delay","status":"WD"},
 {"gecko":"animation-direction","webkit":"-webkit-animation-direction","presto":"","trident":"animation-direction","status":"WD"},
@@ -108,11 +109,8 @@ var kCSS_VENDOR_PREFIXES =
 {"gecko":"animation-name","webkit":"-webkit-animation-name","presto":"","trident":"animation-name","status":"WD"},
 {"gecko":"animation-play-state","webkit":"-webkit-animation-play-state","presto":"","trident":"animation-play-state","status":"WD"},
 {"gecko":"animation-timing-function","webkit":"-webkit-animation-timing-function","presto":"","trident":"animation-timing-function","status":"WD"},
-{"gecko":"","webkit":"-webkit-app-region","presto":"","trident":"","status":""},
 {"gecko":"-moz-appearance","webkit":"-webkit-appearance","presto":"","trident":"","status":"CR"},
-{"gecko":"","webkit":"-webkit-aspect-ratio","presto":"","trident":"","status":""},
 {"gecko":"backface-visibility","webkit":"-webkit-backface-visibility","presto":"","trident":"backface-visibility","status":"WD"},
-{"gecko":"","webkit":"-webkit-background-blend-mode","presto":"","trident":"","status":""},
 {"gecko":"background-clip","webkit":"-webkit-background-clip","presto":"background-clip","trident":"background-clip","status":"WD"},
 {"gecko":"","webkit":"-webkit-background-composite","presto":"","trident":"","status":""},
 {"gecko":"-moz-background-inline-policy","webkit":"","presto":"","trident":"","status":"P"},
@@ -140,7 +138,6 @@ var kCSS_VENDOR_PREFIXES =
 {"gecko":"-moz-border-end-style","webkit":"-webkit-border-end-style","presto":"","trident":"","status":"ED"},
 {"gecko":"-moz-border-end-width","webkit":"-webkit-border-end-width","presto":"","trident":"","status":"ED"},
 {"gecko":"","webkit":"-webkit-border-fit","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-border-horizontal-spacing","presto":"","trident":"","status":""},
 {"gecko":"border-image","webkit":"-webkit-border-image","presto":"-o-border-image","trident":"","status":"WD"},
 {"gecko":"-moz-border-left-colors","webkit":"","presto":"","trident":"","status":"P"},
 {"gecko":"border-radius","webkit":"-webkit-border-radius","presto":"border-radius","trident":"border-radius","status":"WD"},
@@ -152,10 +149,9 @@ var kCSS_VENDOR_PREFIXES =
 {"gecko":"-moz-border-top-colors","webkit":"","presto":"","trident":"","status":"P"},
 {"gecko":"border-top-left-radius","webkit":"-webkit-border-top-left-radius","presto":"border-top-left-radius","trident":"border-top-left-radius","status":"WD"},
 {"gecko":"border-top-right-radius","webkit":"-webkit-border-top-right-radius","presto":"border-top-right-radius","trident":"border-top-right-radius","status":"WD"},
-{"gecko":"","webkit":"-webkit-border-vertical-spacing","presto":"","trident":"","status":""},
 {"gecko":"-moz-box-align","webkit":"-webkit-box-align","presto":"","trident":"","status":"WD"},
 {"gecko":"","webkit":"-webkit-box-decoration-break","presto":"box-decoration-break","trident":"","status":"WD"},
-{"gecko":"-moz-box-direction","webkit":"-webkit-box-direction","presto":"","trident":"","status":"WD"},
+{"gecko":"-moz-box-direction","webkit":"","presto":"","trident":"","status":"WD"},
 {"gecko":"-moz-box-flex","webkit":"-webkit-box-flex","presto":"","trident":"","status":"WD"},
 {"gecko":"","webkit":"-webkit-box-flex-group","presto":"","trident":"","status":"WD"},
 {"gecko":"","webkit":"-webkit-box-lines","presto":"","trident":"","status":"WD"},
@@ -164,16 +160,15 @@ var kCSS_VENDOR_PREFIXES =
 {"gecko":"-moz-box-pack","webkit":"-webkit-box-pack","presto":"","trident":"","status":"WD"},
 {"gecko":"","webkit":"-webkit-box-reflect","presto":"","trident":"","status":""},
 {"gecko":"box-shadow","webkit":"-webkit-box-shadow","presto":"box-shadow","trident":"box-shadow","status":"WD"},
-{"gecko":"-moz-box-sizing","webkit":"-webkit-box-sizing","presto":"box-sizing","trident":"box-sizing","status":"CR"},
+{"gecko":"box-sizing","webkit":"-webkit-box-sizing","presto":"box-sizing","trident":"box-sizing","status":"CR"},
 {"gecko":"caption-side","webkit":"-epub-caption-side","presto":"caption-side","trident":"caption-side","status":""},
 {"gecko":"clip-path","webkit":"-webkit-clip-path","presto":"clip-path","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-color-correction","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-column-axis","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-column-break-after","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-column-break-before","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-column-break-inside","presto":"","trident":"","status":""},
 {"gecko":"-moz-column-count","webkit":"-webkit-column-count","presto":"column-count","trident":"column-count","status":"CR"},
-{"gecko":"-moz-column-fill","webkit":"","presto":"column-fill","trident":"column-fill","status":"CR"},
+{"gecko":"-moz-column-fill","webkit":"-webkit-column-fill","presto":"column-fill","trident":"column-fill","status":"CR"},
 {"gecko":"-moz-column-gap","webkit":"-webkit-column-gap","presto":"column-gap","trident":"column-gap","status":"CR"},
 {"gecko":"","webkit":"-webkit-column-progression","presto":"","trident":"","status":""},
 {"gecko":"-moz-column-rule","webkit":"-webkit-column-rule","presto":"column-rule","trident":"column-rule","status":"CR"},
@@ -191,7 +186,7 @@ var kCSS_VENDOR_PREFIXES =
 {"gecko":"","webkit":"","presto":"","trident":"-ms-content-zoom-snap-points","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-content-zoom-snap-type","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-content-zooming","status":""},
-{"gecko":"","webkit":"-webkit-cursor-visibility","presto":"","trident":"","status":""},
+{"gecko":"-moz-control-character-visibility","webkit":"","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-dashboard-region","presto":"-apple-dashboard-region","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"-o-device-pixel-ratio","trident":"","status":""},
 {"gecko":"filter","webkit":"-webkit-filter","presto":"filter","trident":"-ms-filter","status":""},
@@ -199,47 +194,42 @@ var kCSS_VENDOR_PREFIXES =
 {"gecko":"","webkit":"","presto":"","trident":"-ms-flex-align","status":""},
 {"gecko":"flex-basis","webkit":"-webkit-flex-basis","presto":"","trident":"","status":""},
 {"gecko":"flex-direction","webkit":"-webkit-flex-direction","presto":"","trident":"-ms-flex-direction","status":""},
-{"gecko":"","webkit":"-webkit-flex-flow","presto":"","trident":"","status":""},
+{"gecko":"flex-flow","webkit":"-webkit-flex-flow","presto":"","trident":"","status":""},
 {"gecko":"flex-grow","webkit":"-webkit-flex-grow","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-flex-order","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-flex-pack","status":""},
 {"gecko":"flex-shrink","webkit":"-webkit-flex-shrink","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-flex-wrap","presto":"","trident":"-ms-flex-wrap","status":""},
+{"gecko":"flex-wrap","webkit":"-webkit-flex-wrap","presto":"","trident":"-ms-flex-wrap","status":""},
 {"gecko":"-moz-float-edge","webkit":"","presto":"","trident":"","status":"P"},
 {"gecko":"","webkit":"-webkit-flow-from","presto":"","trident":"-ms-flow-from","status":""},
 {"gecko":"","webkit":"-webkit-flow-into","presto":"","trident":"-ms-flow-into","status":""},
 {"gecko":"","webkit":"","presto":"-o-focus-opacity","trident":"","status":""},
-{"gecko":"-moz-font-feature-settings","webkit":"-webkit-font-feature-settings","presto":"","trident":"font-feature-settings","status":""},
-{"gecko":"font-kerning","webkit":"-webkit-font-kerning","presto":"","trident":"","status":""},
+{"gecko":"-moz-font-feature-settings","webkit":"","presto":"","trident":"font-feature-settings","status":""},
 {"gecko":"-moz-font-language-override","webkit":"","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-font-size-delta","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-font-smoothing","presto":"","trident":"","status":""},
-{"gecko":"font-variant-ligatures","webkit":"-webkit-font-variant-ligatures","presto":"","trident":"","status":""},
 {"gecko":"-moz-force-broken-image-icon","webkit":"","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-grid-after","presto":"","trident":"","status":""},
+{"gecko":"","webkit":"-webkit-grid-area","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-grid-auto-columns","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-grid-auto-flow","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-grid-auto-rows","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-grid-before","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-grid-column","presto":"","trident":"-ms-grid-column","status":"WD"},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-grid-column-align","status":"WD"},
+{"gecko":"","webkit":"-webkit-grid-column-end","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-grid-column-span","status":"WD"},
+{"gecko":"","webkit":"-webkit-grid-column-start","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-grid-columns","status":"WD"},
-{"gecko":"","webkit":"-webkit-grid-definition-columns","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-grid-definition-rows","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-grid-end","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-grid-row","presto":"","trident":"-ms-grid-row","status":"WD"},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-grid-row-align","status":"WD"},
+{"gecko":"","webkit":"-webkit-grid-row-end","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-grid-row-span","status":"WD"},
+{"gecko":"","webkit":"-webkit-grid-row-start","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-grid-rows","status":"WD"},
-{"gecko":"","webkit":"-webkit-grid-start","presto":"","trident":"","status":""},
+{"gecko":"","webkit":"-webkit-grid-template","presto":"","trident":"","status":"WD"},
+{"gecko":"","webkit":"-webkit-grid-template-columns","presto":"","trident":"","status":""},
+{"gecko":"","webkit":"-webkit-grid-template-rows","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-high-contrast-adjust","status":""},
-{"gecko":"","webkit":"-webkit-highlight","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-hyphenate-character","presto":"","trident":"","status":"WD"},
-{"gecko":"","webkit":"-webkit-hyphenate-limit-after","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-hyphenate-limit-before","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-hyphenate-limit-chars","status":""},
-{"gecko":"","webkit":"-webkit-hyphenate-limit-lines","presto":"","trident":"-ms-hyphenate-limit-lines","status":""},
+{"gecko":"","webkit":"","presto":"","trident":"-ms-hyphenate-limit-lines","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-hyphenate-limit-zone","status":""},
 {"gecko":"-moz-hyphens","webkit":"-epub-hyphens","presto":"","trident":"-ms-hyphens","status":"WD"},
 {"gecko":"-moz-image-region","webkit":"","presto":"","trident":"","status":"P"},
@@ -255,15 +245,9 @@ var kCSS_VENDOR_PREFIXES =
 {"gecko":"","webkit":"","presto":"","trident":"-ms-layout-grid-line","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-layout-grid-mode","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-layout-grid-type","status":""},
-{"gecko":"","webkit":"-webkit-line-align","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-line-box-contain","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-line-break","presto":"","trident":"line-break","status":""},
 {"gecko":"","webkit":"-webkit-line-clamp","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-line-grid","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-line-snap","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"-o-link","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"-o-link-source","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-locale","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-logical-height","presto":"","trident":"","status":"ED"},
 {"gecko":"","webkit":"-webkit-logical-width","presto":"","trident":"","status":"ED"},
 {"gecko":"","webkit":"-webkit-margin-after","presto":"","trident":"","status":"ED"},
@@ -301,23 +285,25 @@ var kCSS_VENDOR_PREFIXES =
 {"gecko":"","webkit":"-webkit-mask-repeat-x","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-mask-repeat-y","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-mask-size","presto":"","trident":"","status":""},
+{"gecko":"","webkit":"-webkit-mask-source-type","presto":"","trident":"","status":""},
+{"gecko":"-moz-math-display","webkit":"","presto":"","trident":"","status":""},
+{"gecko":"-moz-math-variant","webkit":"","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-max-logical-height","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-max-logical-width","presto":"","trident":"","status":"ED"},
 {"gecko":"","webkit":"-webkit-min-logical-height","presto":"","trident":"","status":"ED"},
 {"gecko":"","webkit":"-webkit-min-logical-width","presto":"","trident":"","status":"ED"},
 {"gecko":"","webkit":"","presto":"-o-mini-fold","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-nbsp-mode","presto":"","trident":"","status":"P"},
-{"gecko":"","webkit":"","presto":"-o-object-fit","trident":"","status":"ED"},
+{"gecko":"","webkit":"object-fit","presto":"-o-object-fit","trident":"","status":"ED"},
 {"gecko":"","webkit":"","presto":"-o-object-position","trident":"","status":"ED"},
 {"gecko":"opacity","webkit":"-webkit-opacity","presto":"opacity","trident":"opacity","status":"WD"},
 {"gecko":"order","webkit":"-webkit-order","presto":"","trident":"","status":""},
 {"gecko":"-moz-orient","webkit":"","presto":"","trident":"","status":""},
+{"gecko":"-moz-osx-font-smoothing","webkit":"","presto":"","trident":"","status":""},
 {"gecko":"-moz-outline-radius","webkit":"","presto":"","trident":"","status":"P"},
 {"gecko":"-moz-outline-radius-bottomleft","webkit":"","presto":"","trident":"","status":"P"},
 {"gecko":"-moz-outline-radius-bottomright","webkit":"","presto":"","trident":"","status":"P"},
 {"gecko":"-moz-outline-radius-topleft","webkit":"","presto":"","trident":"","status":"P"},
 {"gecko":"-moz-outline-radius-topright","webkit":"","presto":"","trident":"","status":"P"},
-{"gecko":"","webkit":"-webkit-overflow-scrolling","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-overflow-style","status":"CR"},
 {"gecko":"overflow-x","webkit":"overflow-x","presto":"overflow-x","trident":"-ms-overflow-x","status":"WD"},
 {"gecko":"overflow-y","webkit":"overflow-y","presto":"overflow-y","trident":"-ms-overflow-y","status":"WD"},
@@ -330,14 +316,11 @@ var kCSS_VENDOR_PREFIXES =
 {"gecko":"","webkit":"-webkit-perspective-origin-x","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-perspective-origin-y","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"-xv-phonemes","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-print-color-adjust","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-progress-appearance","status":""},
 {"gecko":"","webkit":"-webkit-region-break-after","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-region-break-before","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-region-break-inside","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-region-fragment","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-rtl-ordering","presto":"","trident":"","status":"P"},
-{"gecko":"","webkit":"-webkit-ruby-position","presto":"","trident":"ruby-position","status":"CR"},
 {"gecko":"-moz-script-level","webkit":"","presto":"","trident":"","status":""},
 {"gecko":"-moz-script-min-size","webkit":"","presto":"","trident":"","status":""},
 {"gecko":"-moz-script-size-multiplier","webkit":"","presto":"","trident":"","status":""},
@@ -361,39 +344,30 @@ var kCSS_VENDOR_PREFIXES =
 {"gecko":"","webkit":"","presto":"scrollbar-highlight-color","trident":"-ms-scrollbar-highlight-color","status":"P"},
 {"gecko":"","webkit":"","presto":"scrollbar-shadow-color","trident":"-ms-scrollbar-shadow-color","status":"P"},
 {"gecko":"","webkit":"","presto":"scrollbar-track-color","trident":"-ms-scrollbar-track-color","status":"P"},
+{"gecko":"","webkit":"-webkit-shape-image-threshold","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-shape-inside","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-shape-margin","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-shape-outside","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-shape-padding","presto":"","trident":"","status":""},
 {"gecko":"-moz-stack-sizing","webkit":"","presto":"","trident":"","status":"P"},
 {"gecko":"","webkit":"-webkit-svg-shadow","presto":"","trident":"","status":""},
-{"gecko":"-moz-tab-size","webkit":"tab-size","presto":"-o-tab-size","trident":"","status":""},
+{"gecko":"-moz-tab-size","webkit":"","presto":"-o-tab-size","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"-o-table-baseline","trident":"","status":""},
 {"gecko":"","webkit":"-webkit-tap-highlight-color","presto":"","trident":"","status":"P"},
-{"gecko":"-moz-text-align-last","webkit":"-webkit-text-align-last","presto":"","trident":"-ms-text-align-last","status":"WD"},
+{"gecko":"-moz-text-align-last","webkit":"","presto":"","trident":"-ms-text-align-last","status":"WD"},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-text-autospace","status":"WD"},
-{"gecko":"-moz-text-blink","webkit":"","presto":"","trident":"","status":""},
 {"gecko":"","webkit":"-epub-text-combine","presto":"","trident":"","status":""},
+{"gecko":"text-decoration","webkit":"-webkit-text-decoration","presto":"text-decoration","trident":"text-decoration","status":"WD"},
 {"gecko":"-moz-text-decoration-color","webkit":"-webkit-text-decoration-color","presto":"","trident":"","status":""},
 {"gecko":"-moz-text-decoration-line","webkit":"-webkit-text-decoration-line","presto":"","trident":"","status":""},
 {"gecko":"-moz-text-decoration-style","webkit":"-webkit-text-decoration-style","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-text-decorations-in-effect","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-epub-text-emphasis","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-epub-text-emphasis-color","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-text-emphasis-position","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-epub-text-emphasis-style","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-text-fill-color","presto":"","trident":"","status":"P"},
-{"gecko":"","webkit":"-webkit-text-justify","presto":"","trident":"-ms-text-justify","status":"WD"},
+{"gecko":"","webkit":"","presto":"","trident":"-ms-text-justify","status":"WD"},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-text-kashida-space","status":"P"},
-{"gecko":"","webkit":"-epub-text-orientation","presto":"","trident":"","status":""},
+{"gecko":"text-orientation","webkit":"-epub-text-orientation","presto":"","trident":"","status":""},
 {"gecko":"text-overflow","webkit":"text-overflow","presto":"text-overflow","trident":"-ms-text-overflow","status":"WD"},
-{"gecko":"","webkit":"-webkit-text-security","presto":"","trident":"","status":"P"},
 {"gecko":"-moz-text-size-adjust","webkit":"","presto":"","trident":"","status":""},
-{"gecko":"","webkit":"-webkit-text-stroke","presto":"","trident":"","status":"P"},
-{"gecko":"","webkit":"-webkit-text-stroke-color","presto":"","trident":"","status":"P"},
-{"gecko":"","webkit":"-webkit-text-stroke-width","presto":"","trident":"","status":"P"},
 {"gecko":"text-transform","webkit":"-epub-text-transform","presto":"text-transform","trident":"text-transform","status":""},
-{"gecko":"","webkit":"-webkit-text-underline-position","presto":"","trident":"-ms-text-underline-position","status":"P"},
+{"gecko":"","webkit":"","presto":"","trident":"-ms-text-underline-position","status":"P"},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-touch-action","status":""},
 {"gecko":"","webkit":"-webkit-touch-callout","presto":"","trident":"","status":"P"},
 {"gecko":"-moz-transform","webkit":"-webkit-transform","presto":"-o-transform","trident":"transform","status":"WD"},
@@ -410,8 +384,8 @@ var kCSS_VENDOR_PREFIXES =
 {"gecko":"","webkit":"-webkit-user-drag","presto":"","trident":"","status":"P"},
 {"gecko":"-moz-user-focus","webkit":"","presto":"","trident":"","status":"P"},
 {"gecko":"-moz-user-input","webkit":"","presto":"","trident":"","status":"P"},
-{"gecko":"-moz-user-modify","webkit":"-webkit-user-modify","presto":"","trident":"","status":"P"},
-{"gecko":"-moz-user-select","webkit":"-webkit-user-select","presto":"","trident":"-ms-user-select","status":"P"},
+{"gecko":"-moz-user-modify","webkit":"","presto":"","trident":"","status":""},
+{"gecko":"-moz-user-select","webkit":"","presto":"","trident":"-ms-user-select","status":""},
 {"gecko":"","webkit":"","presto":"-xv-voice-balance","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"-xv-voice-duration","trident":"","status":""},
 {"gecko":"","webkit":"","presto":"-xv-voice-pitch","trident":"","status":""},
@@ -421,7 +395,7 @@ var kCSS_VENDOR_PREFIXES =
 {"gecko":"","webkit":"","presto":"-xv-voice-volume","trident":"","status":""},
 {"gecko":"-moz-window-shadow","webkit":"","presto":"","trident":"","status":"P"},
 {"gecko":"word-break","webkit":"-epub-word-break","presto":"","trident":"-ms-word-break","status":"WD"},
-{"gecko":"word-wrap","webkit":"word-wrap","presto":"word-wrap","trident":"-ms-word-wrap","status":"WD"},
+{"gecko":"word-wrap","webkit":"","presto":"word-wrap","trident":"-ms-word-wrap","status":"WD"},
 {"gecko":"","webkit":"-webkit-wrap-flow","presto":"","trident":"-ms-wrap-flow","status":""},
 {"gecko":"","webkit":"","presto":"","trident":"-ms-wrap-margin","status":""},
 {"gecko":"","webkit":"-webkit-wrap-through","presto":"","trident":"-ms-wrap-through","status":""},
@@ -2048,220 +2022,6 @@ CSSParser.prototype.parseColor = function(token)
   return color;
 };
 
-CSSParser.prototype.parseCueShorthand = function(token, declarations, aAcceptPriority)
-{
-  var before = "";
-  var after = "";
-  
-  var values = [];
-  var values = [];
-  while (true) {
-    
-    if (!token.isNotNull())
-      break;
-    
-    if (token.isSymbol(";")
-        || (aAcceptPriority && token.isSymbol("!"))
-        || token.isSymbol("}")) {
-      if (token.isSymbol("}"))
-        this.ungetToken();
-      break;
-    }
-    
-    else if (!values.length && token.isIdent(this.kINHERIT)) {
-      values.push(token.value);
-    }
-    
-    else if (token.isIdent("none"))
-      values.push(token.value);
-    
-    else if (token.isFunction("url(")) {
-      token = this.getToken(true, true);
-      var urlContent = this.parseURL(token);
-      if (urlContent)
-        values.push("url(" + urlContent);
-      else
-        return "";
-    }
-    else
-      return "";
-    
-    token = this.getToken(true, true);
-  }
-  
-  var count = values.length;
-  switch (count) {
-    case 1:
-      before = values[0];
-      after = before;
-      break;
-    case 2:
-      before = values[0];
-      after = values[1];
-      break;
-    default:
-      return "";
-  }
-  this.forgetState();
-  aDecl.push(this._createJscsspDeclarationFromValue("cue-before", before));
-  aDecl.push(this._createJscsspDeclarationFromValue("cue-after", after));
-  return before + " " + after;
-};
-
-CSSParser.prototype.parseDeclaration = function(aToken, aDecl, aAcceptPriority, aExpandShorthands, aSheet) {
-  this.preserveState();
-  var blocks = [];
-  if (aToken.isIdent()) {
-    var descriptor = aToken.value.toLowerCase();
-    var token = this.getToken(true, true);
-    if (token.isSymbol(":")) {
-      var token = this.getToken(true, true);
-      
-      var value = "";
-      var declarations = [];
-      if (aExpandShorthands)
-        switch (descriptor) {
-          case "background":
-            value = this.parseBackgroundShorthand(token, declarations, aAcceptPriority);
-            break;
-          case "margin":
-          case "padding":
-            value = this.parseMarginOrPaddingShorthand(token, declarations, aAcceptPriority, descriptor);
-            break;
-          case "border-color":
-            value = this.parseBorderColorShorthand(token, declarations, aAcceptPriority);
-            break;
-          case "border-style":
-            value = this.parseBorderStyleShorthand(token, declarations, aAcceptPriority);
-            break;
-          case "border-width":
-            value = this.parseBorderWidthShorthand(token, declarations, aAcceptPriority);
-            break;
-          case "border-top":
-          case "border-right":
-          case "border-bottom":
-          case "border-left":
-          case "border":
-          case "outline":
-            value = this.parseBorderEdgeOrOutlineShorthand(token, declarations, aAcceptPriority, descriptor);
-            break;
-          case "cue":
-            value = this.parseCueShorthand(token, declarations, aAcceptPriority);
-            break;
-          case "pause":
-            value = this.parsePauseShorthand(token, declarations, aAcceptPriority);
-            break;
-          case "font":
-            value = this.parseFontShorthand(token, declarations, aAcceptPriority);
-            break;
-          case "list-style":
-            value = this.parseListStyleShorthand(token, declarations, aAcceptPriority);
-            break;
-          default:
-            value = this.parseDefaultPropertyValue(token, declarations, aAcceptPriority, descriptor, aSheet);
-            break;
-        }
-      else
-        value = this.parseDefaultPropertyValue(token, declarations, aAcceptPriority, descriptor, aSheet);
-      token = this.currentToken();
-      if (value) // no error above
-      {
-        var priority = false;
-        if (token.isSymbol("!")) {
-          token = this.getToken(true, true);
-          if (token.isIdent("important")) {
-            priority = true;
-            token = this.getToken(true, true);
-            if (token.isSymbol(";") || token.isSymbol("}")) {
-              if (token.isSymbol("}"))
-                this.ungetToken();
-            }
-            else return "";
-          }
-          else return "";
-        }
-        else if  (token.isNotNull() && !token.isSymbol(";") && !token.isSymbol("}"))
-          return "";
-        for (var i = 0; i < declarations.length; i++) {
-          declarations[i].priority = priority;
-          aDecl.push(declarations[i]);
-        }
-        return descriptor + ": " + value + ";";
-      }
-    }
-  }
-  else if (aToken.isComment()) {
-    if (this.mPreserveComments) {
-      this.forgetState();
-      var comment = new jscsspComment();
-      comment.parsedCssText = aToken.value;
-      aDecl.push(comment);
-    }
-    return aToken.value;
-  }
-  
-  // we have an error here, let's skip it
-  this.restoreState();
-  var s = aToken.value;
-  blocks = [];
-  var token = this.getToken(false, false);
-  while (token.isNotNull()) {
-    s += token.value;
-    if ((token.isSymbol(";") || token.isSymbol("}")) && !blocks.length) {
-      if (token.isSymbol("}"))
-        this.ungetToken();
-      break;
-    } else if (token.isSymbol("{")
-               || token.isSymbol("(")
-               || token.isSymbol("[")
-               || token.isFunction()) {
-      blocks.push(token.isFunction() ? "(" : token.value);
-    } else if (token.isSymbol("}")
-               || token.isSymbol(")")
-               || token.isSymbol("]")) {
-      if (blocks.length) {
-        var ontop = blocks[blocks.length - 1];
-        if ((token.isSymbol("}") && ontop == "{")
-            || (token.isSymbol(")") && ontop == "(")
-            || (token.isSymbol("]") && ontop == "[")) {
-          blocks.pop();
-        }
-      }
-    }
-    token = this.getToken(false, false);
-  }
-  return "";
-};
-
-CSSParser.prototype.reportError = function(aMsg) {
-  this.mError = aMsg;
-};
-
-CSSParser.prototype.consumeError = function() {
-  var e = this.mError;
-  this.mError = null;
-  return e;
-};
-
-function CSSParser(aString)
-{
-  this.mToken = null;
-  this.mLookAhead = null;
-  this.mScanner = new CSSScanner(aString);
-  
-  this.mPreserveWS = true;
-  this.mPreserveComments = true;
-  
-  this.mPreservedTokens = [];
-  
-  this.mError = null;
-}
-
-CSSParser.prototype._init = function() {
-  this.mToken = null;
-  this.mLookAhead = null;
-};
-
 CSSParser.prototype.kINHERIT = "inherit",
 
 CSSParser.prototype.kBORDER_WIDTH_NAMES = {
@@ -2563,6 +2323,220 @@ CSSParser.prototype.kLIST_STYLE_TYPE_NAMES = {
   "filled-circled-decimal": true,
   "parenthesised-decimal": true,
   "parenthesised-lower-latin": true
+};
+
+CSSParser.prototype.parseCueShorthand = function(token, declarations, aAcceptPriority)
+{
+  var before = "";
+  var after = "";
+  
+  var values = [];
+  var values = [];
+  while (true) {
+    
+    if (!token.isNotNull())
+      break;
+    
+    if (token.isSymbol(";")
+        || (aAcceptPriority && token.isSymbol("!"))
+        || token.isSymbol("}")) {
+      if (token.isSymbol("}"))
+        this.ungetToken();
+      break;
+    }
+    
+    else if (!values.length && token.isIdent(this.kINHERIT)) {
+      values.push(token.value);
+    }
+    
+    else if (token.isIdent("none"))
+      values.push(token.value);
+    
+    else if (token.isFunction("url(")) {
+      token = this.getToken(true, true);
+      var urlContent = this.parseURL(token);
+      if (urlContent)
+        values.push("url(" + urlContent);
+      else
+        return "";
+    }
+    else
+      return "";
+    
+    token = this.getToken(true, true);
+  }
+  
+  var count = values.length;
+  switch (count) {
+    case 1:
+      before = values[0];
+      after = before;
+      break;
+    case 2:
+      before = values[0];
+      after = values[1];
+      break;
+    default:
+      return "";
+  }
+  this.forgetState();
+  aDecl.push(this._createJscsspDeclarationFromValue("cue-before", before));
+  aDecl.push(this._createJscsspDeclarationFromValue("cue-after", after));
+  return before + " " + after;
+};
+
+CSSParser.prototype.parseDeclaration = function(aToken, aDecl, aAcceptPriority, aExpandShorthands, aSheet) {
+  this.preserveState();
+  var blocks = [];
+  if (aToken.isIdent()) {
+    var descriptor = aToken.value.toLowerCase();
+    var token = this.getToken(true, true);
+    if (token.isSymbol(":")) {
+      var token = this.getToken(true, true);
+      
+      var value = "";
+      var declarations = [];
+      if (aExpandShorthands)
+        switch (descriptor) {
+          case "background":
+            value = this.parseBackgroundShorthand(token, declarations, aAcceptPriority);
+            break;
+          case "margin":
+          case "padding":
+            value = this.parseMarginOrPaddingShorthand(token, declarations, aAcceptPriority, descriptor);
+            break;
+          case "border-color":
+            value = this.parseBorderColorShorthand(token, declarations, aAcceptPriority);
+            break;
+          case "border-style":
+            value = this.parseBorderStyleShorthand(token, declarations, aAcceptPriority);
+            break;
+          case "border-width":
+            value = this.parseBorderWidthShorthand(token, declarations, aAcceptPriority);
+            break;
+          case "border-top":
+          case "border-right":
+          case "border-bottom":
+          case "border-left":
+          case "border":
+          case "outline":
+            value = this.parseBorderEdgeOrOutlineShorthand(token, declarations, aAcceptPriority, descriptor);
+            break;
+          case "cue":
+            value = this.parseCueShorthand(token, declarations, aAcceptPriority);
+            break;
+          case "pause":
+            value = this.parsePauseShorthand(token, declarations, aAcceptPriority);
+            break;
+          case "font":
+            value = this.parseFontShorthand(token, declarations, aAcceptPriority);
+            break;
+          case "list-style":
+            value = this.parseListStyleShorthand(token, declarations, aAcceptPriority);
+            break;
+          default:
+            value = this.parseDefaultPropertyValue(token, declarations, aAcceptPriority, descriptor, aSheet);
+            break;
+        }
+      else
+        value = this.parseDefaultPropertyValue(token, declarations, aAcceptPriority, descriptor, aSheet);
+      token = this.currentToken();
+      if (value) // no error above
+      {
+        var priority = false;
+        if (token.isSymbol("!")) {
+          token = this.getToken(true, true);
+          if (token.isIdent("important")) {
+            priority = true;
+            token = this.getToken(true, true);
+            if (token.isSymbol(";") || token.isSymbol("}")) {
+              if (token.isSymbol("}"))
+                this.ungetToken();
+            }
+            else return "";
+          }
+          else return "";
+        }
+        else if  (token.isNotNull() && !token.isSymbol(";") && !token.isSymbol("}"))
+          return "";
+        for (var i = 0; i < declarations.length; i++) {
+          declarations[i].priority = priority;
+          aDecl.push(declarations[i]);
+        }
+        return descriptor + ": " + value + ";";
+      }
+    }
+  }
+  else if (aToken.isComment()) {
+    if (this.mPreserveComments) {
+      this.forgetState();
+      var comment = new jscsspComment();
+      comment.parsedCssText = aToken.value;
+      aDecl.push(comment);
+    }
+    return aToken.value;
+  }
+  
+  // we have an error here, let's skip it
+  this.restoreState();
+  var s = aToken.value;
+  blocks = [];
+  var token = this.getToken(false, false);
+  while (token.isNotNull()) {
+    s += token.value;
+    if ((token.isSymbol(";") || token.isSymbol("}")) && !blocks.length) {
+      if (token.isSymbol("}"))
+        this.ungetToken();
+      break;
+    } else if (token.isSymbol("{")
+               || token.isSymbol("(")
+               || token.isSymbol("[")
+               || token.isFunction()) {
+      blocks.push(token.isFunction() ? "(" : token.value);
+    } else if (token.isSymbol("}")
+               || token.isSymbol(")")
+               || token.isSymbol("]")) {
+      if (blocks.length) {
+        var ontop = blocks[blocks.length - 1];
+        if ((token.isSymbol("}") && ontop == "{")
+            || (token.isSymbol(")") && ontop == "(")
+            || (token.isSymbol("]") && ontop == "[")) {
+          blocks.pop();
+        }
+      }
+    }
+    token = this.getToken(false, false);
+  }
+  return "";
+};
+
+CSSParser.prototype.reportError = function(aMsg) {
+  this.mError = aMsg;
+};
+
+CSSParser.prototype.consumeError = function() {
+  var e = this.mError;
+  this.mError = null;
+  return e;
+};
+
+function CSSParser(aString)
+{
+  this.mToken = null;
+  this.mLookAhead = null;
+  this.mScanner = new CSSScanner(aString);
+  
+  this.mPreserveWS = true;
+  this.mPreserveComments = true;
+  
+  this.mPreservedTokens = [];
+  
+  this.mError = null;
+}
+
+CSSParser.prototype._init = function() {
+  this.mToken = null;
+  this.mLookAhead = null;
 };
 
 CSSParser.prototype.parseFontFaceRule = function(aToken, aSheet) {
