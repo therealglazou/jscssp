@@ -1,0 +1,15 @@
+/* JSCSSP test */
+@media screen AND (max-width: 500px) { body { background-color: #f0f0f0; }}
+
+@keyframes my_anim { from { opacity: 1; } to { opacity: 0; } }
+
+body { var-my-margin: 12px }
+h1 {  margin-top: var(my-margin);
+      background-image: linear-gradient(to top, white, #c0c0c0); }
+
+/* shorthands */
+#myP { border: thin groove silver; }
+
+/* escapes */
+.f\00C4 oo { p\roperty: value; content: "foo \
+bar" }

@@ -1,0 +1,16 @@
+{
+  "name": "jscssp",
+  "description": "A fast and extensible CSS parser written in JavaScript",
+  "version": "0.1.0",
+  "author": "Daniel Glazman <daniel@glazman.org> (http://www.glazman.org/)",
+  "license": "MPL-2.0",
+  "homepage": "http://www.glazman.org/JSCSSP/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/therealglazou/jscssp.git"
+  },
+  "main": "node_dist/cssParser.js",
+  "keywords": ["css", "parser"],
+  "dependencies": {},
+  "devDependencies": {}
+}
