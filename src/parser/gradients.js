@@ -88,7 +88,7 @@ CSSParser.prototype.parseGradient = function ()
           }
           else if (!gradient.extent
                    && (token.isIdent("closest-corner")
-                       || token.isIdent("closes-side")
+                       || token.isIdent("closest-side")
                        || token.isIdent("farthest-corner")
                        || token.isIdent("farthest-corner"))) {
                      gradient.extent = token.value;
