@@ -32,6 +32,7 @@ CSSParser.prototype.parseDefaultPropertyValue = function(token, aDecl, aAcceptPr
       blocks.push(token.value);
     }
     else if (token.isSymbol("}")
+             || token.isSymbol(")")
              || token.isSymbol("]")) {
       if (blocks.length) {
         var ontop = blocks[blocks.length - 1];
