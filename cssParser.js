@@ -461,7 +461,7 @@ function ParseURL(buffer) {
         section = "AFTER_PROTOCOL";
         start++;
       } else if(buffer.charAt(start) == '/' && result.protocol.length() == 0) { 
-        section = PATH;
+        section = "PATH";
       } else {
         result.protocol += buffer.charAt(start++);
       }
